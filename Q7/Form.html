@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Registration Form</title>
+</head>
+<body>
+    <h1>Employee Registration Form</h1>
+    <form>
+        <label>Title:</label>
+        <input type="radio" name="title" value="Mr." checked> Mr.
+        <input type="radio" name="title" value="Mrs."> Mrs.
+        <input type="radio" name="title" value="Ms."> Ms.
+        <br><br>
+        
+        <label>First Name:</label>
+        <input type="text" name="firstname" placeholder="First Name"><br><br>
+        
+        <label>Last Name:</label>
+        <input type="text" name="lastname" placeholder="Last Name"><br><br>
+        
+        <label>Mail Address1:</label>
+        <input type="text" name="mail1"><br><br>
+        
+        <label>Mail Address2:</label>
+        <input type="text" name="mail2"><br><br>
+        
+        <label>City:</label>
+        <input type="text" name="city"><br><br>
+        
+        <label>State:</label>
+        <select name="state">
+            <option>Gujarat</option>
+            <option>Maharashtra</option>
+            <option>Rajasthan</option>
+            <option>Delhi</option>
+        </select><br><br>
+        
+        <label>Zip:</label>
+        <input type="text" name="zip"><br><br>
+        
+        <label>Upload Photo:</label>
+        <input type="file" name="photo"><br><br>
+        
+        <label>E-Mail:</label>
+        <input type="email" name="email"><br><br>
+        
+        <label>Mobile:</label>
+        <input type="text" name="mobile" placeholder="+91"><br><br>
+        
+        <label>Languages Known:</label><br>
+        <input type="checkbox" name="lang" value="Gujarati" checked> Gujarati<br>
+        <input type="checkbox" name="lang" value="Hindi" checked> Hindi<br>
+        <input type="checkbox" name="lang" value="English" checked> English<br>
+        <input type="checkbox" name="lang" value="Marathi"> Marathi<br><br>
+        
+        <label>Additional Information:</label><br>
+        <textarea name="info" placeholder="Optional"></textarea><br><br>
+        
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
